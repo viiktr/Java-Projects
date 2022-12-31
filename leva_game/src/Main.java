@@ -4,28 +4,28 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ще успееш ли да направиш точно 1 лев? ");
         System.out.println("Колко броя по 1 стотинка? ");
-        int stotinka1 = scanner.nextInt();
+        int s1 = scanner.nextInt();
         System.out.println("Колко броя по 2 стотинки? ");
-        int stotinki2 = scanner.nextInt();
+        int s2 = scanner.nextInt();
         System.out.println("Колко броя по 5 стотинки? ");
-        int stotinki5 = scanner.nextInt();
+        int s5 = scanner.nextInt();
         System.out.println("Колко броя по 10 стотинки? ");
-        int stotinki10 = scanner.nextInt();
+        int s10 = scanner.nextInt();
         System.out.println("Колко броя по 20 стотинки? ");
-        int stotinki20 = scanner.nextInt();
+        int s20 = scanner.nextInt();
         System.out.println("Колко броя по 50 стотинки? ");
-        int stotinki50 = scanner.nextInt();
+        int s50 = scanner.nextInt();
         scanner.close();
 
-        int stotinka1new = stotinka1 * 1;
-        int stotinka2new = stotinki2 * 2;
-        int stotinka5new = stotinki5 * 5;
-        int stotinka10new = stotinki10 * 10;
-        int stotinka20new = stotinki20 * 20;
-        int stotinka50new = stotinki50 * 50;
+        int s1new = s1 * 1;
+        int s2new = s2 * 2;
+        int s5new = s5 * 5;
+        int s10new = s10 * 10;
+        int s20new = s20 * 20;
+        int s50new = s50 * 50;
         int levche = 100;
 
-        int calc = (stotinka1new + stotinka2new + stotinka5new + stotinka10new + stotinka20new + stotinka50new);
+        int calc = (s1new + s2new + s5new + s10new + s20new + s50new);
 
         if (calc == levche){
             System.out.println("Супер, това прави левче! ");}
